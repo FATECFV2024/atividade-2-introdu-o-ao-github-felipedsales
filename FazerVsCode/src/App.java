@@ -1,29 +1,14 @@
-import java.util.Scanner;
-
 public class App {
-        //Comentário
-
-    public static void funcao_teste (){
-        //Biblioteca para entrada de dados
-        Scanner ler = new Scanner(System.in);
-
-        //variável local 
-        String v2;
-        int v1;
-
-        System.out.println("Comando de Saida de Dados");
+        public static void funcao_Felipe() {
         
-        System.out.printf("Informe uma palavra: ");
-        v2 = ler.next();
-
-        System.out.printf("Informe um número: ");
-        v1 = ler.nextInt();
-
-        System.out.printf(v2+" "+v1);
-    }
+            System.out.println("Nome: Felipe Santos de Sales");
+            System.out.println("RA: 2920482411033");
+            System.out.println("Idade: " + 25);
+            System.out.println("Github: felipedsales");
+            System.out.println("Linkedin: Felipe Santos de Sales");
+            System.out.println("Curso Análise e Desenvolvimento de Sistemas 2° Semestre");
+        }
     public static void main(String[] args) throws Exception {
-        funcao_teste();
-
-
+        funcao_Felipe();
     }
 }
